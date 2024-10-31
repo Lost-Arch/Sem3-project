@@ -15,8 +15,8 @@ This is a basic movie recommendation system built using Python and Flask. It pro
 *   **HTML, CSS, JavaScript:**  Used for creating the user interface and frontend interactions.
 
 ## How it Works
+It simply ask user for genre and then with the help of RESTful API the selection genres are send to backend. At backend, custom SQL query is created and hit then this request is sent to a SQL Database. After, we found film with matching genre we send back response to frontend. This is the basic algorithm that this project works on. 
 
-(Describe the basic recommendation algorithm here. Since your draft resume mentions it's a "basic in-house algorithm," you can briefly explain the logic without going into complex details. For example, you could mention if it's based on genre preferences, collaborative filtering, or content-based filtering.)
 
 ## Getting Started
 
